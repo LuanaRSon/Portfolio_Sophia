@@ -2,7 +2,9 @@
 
 <img src="Print_Portfolio.PNG" alt="imagem do topo da seção 'home' da página.">
 
-> Site do portfólio da designer Sophia Machado.
+> Site do portfólio da designer Sophia Machado. <b>Ainda está em construção!</b>
+>
+> O site pode ser conferido [neste link](https://portfolio-sophia-machado.netlify.app/).
 
 ### Ajustes e melhorias
 
@@ -41,4 +43,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>        
     </tr>
 </table>
-
