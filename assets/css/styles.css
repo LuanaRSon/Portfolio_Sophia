@@ -1,0 +1,141 @@
+:root {
+  --white-color: #FFF;
+  --letter-gray: #404040;
+  --letter-pink: #ED1566;
+  --light-pink: rgba(251, 62, 107, 0.5);
+  --strong-pink: #FB3E6B;
+  ;
+  --underline-pink: #F271A1;
+  --footer-pink: #FB3E6B;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--letter-gray); 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;  
+  scroll-behavior: smooth;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ---- HEADER ---- */
+
+.nav-flex-container {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  justify-content: center;
+}
+
+header {  
+  background: var(--white-color);    
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  
+}
+
+.header-s-img {   
+  height: 63px; 
+  margin: 10px 167px 10px 0;
+  width: 44.58px;
+}
+
+.link-header {  
+  display: inline-block;
+  background: var(--white-color);
+  border: none;  
+  font-size: 21.48px;      
+  margin: 0 43px 0 0;  
+  padding: 7px 28px;  
+}
+
+.link-header:hover {
+  background: var(--light-pink);
+  border-radius: 24.5px;  
+}
+
+/* ---- SELECTED LINK BACKGROUND COLOR ---- */
+
+.selected-link {
+  background: var(--strong-pink);
+  border-radius: 24.5px;
+  color: var(--white-color);
+}
+
+
+/* ----HOME---- */
+
+.top-container {  
+  background-image: url(/assets/img/home/background-top.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 710px;
+  margin-top: 70px;
+}
+
+.top-flex-container {
+  display: flex;
+  height: 617px;  
+  align-items: center;  
+  justify-content: center;
+  gap: 57px;
+}
+
+.top-flex-container p:first-child {
+  font-size: 34.5px;
+}
+
+.text-top-container {   
+  text-align: center;
+  max-width: 446px;
+}
+
+.top-title {
+  color: var(--letter-pink);
+  font-size: 51px;  
+  letter-spacing: 0.325em;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.top-subtitle,
+.top-subtitle span {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.first-img-top {
+  max-height: 390px;
+  max-width: 316px;
+}
+
+
+/* ---- MAIN ---- */
+
+.white-background {
+  background: var(--white-color);  
+  box-shadow: 0px -8px 122px rgba(0, 0, 0, 0.11);
+  border-radius:  99px 99px 0 0;
+  text-align: center;
+}
+
+.pink-projects-arrow {
+  margin: 60px 0;  
+}
+
+/* ---- FOOTER ---- */
+
+footer {
+  background: var(--footer-pink);
+  height: 140px;
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+/* ---- TOP ABOUT ME SECTION ---- */
+
+.text-top-container {
+  text-align: left;
+}
+
+.top-title,
+.top-title span {
+  letter-spacing: 0;
+  line-height: 52px;  
+  text-transform: lowercase;
+}
+
+.top-title {
+  color: var(--letter-gray);
+  font-size: 34px;
+  
+}
+
+.top-title span {
+  color: var(--letter-pink);
+}
+
+/* ---- MAIN ABOUT ME ---- */
+
+.aboutMe-main-top {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.aboutMe-main-top h2 {  
+  background: var(--strong-pink);
+  border-radius: 33px;
+  color: var(--white-color);
+  display: inline-block;
+  padding: 5px 15px;
+  margin-right: 20%;
+}
+
+.aboutMe-main-top img {   
+  margin-right: 30%;
+}

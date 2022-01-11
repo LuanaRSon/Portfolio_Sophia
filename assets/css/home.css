@@ -1,0 +1,114 @@
+/* ---- HOME TOP ---- */
+.projects-box {
+  line-height: 35px;
+  margin-left: 12%;
+  transform: translateY(-50px);      
+}
+
+.projects-title,
+.projects-title span {
+  color: var(--letter-pink);
+  font-size: 43px;  
+}
+
+.projects-subtitle {
+  font-size: 30px;    
+}
+
+.text-underline {  
+  box-shadow: 0 4px var(--underline-pink);  
+  display: inline-block;  
+  height: 24px;  
+}
+
+.text-underline2 {
+  box-shadow: 0 7px var(--underline-pink);  
+  display: inline-block;  
+  height: 32px;  
+}
+
+/* ---- HOME MAIN ---- */
+
+.grid-container {
+  display: flex;    
+  align-items: center;
+  gap: 51px;
+  align-items: center;
+  justify-content: center;  
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.project-text-title {  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17.7px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.project-description {
+  font-family: 'Manrope', sans-serif;  
+  font-size: 23px;
+  line-height: 31px;
+  max-width: 384px;
+}
+
+.project-img {
+  max-height: 500px; 
+  max-width: 550px; 
+}
+
+.see-more-link {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.arrow-size {
+  font-size: 38px;  
+}
+
+.ouvido-title {
+  transform: translateY(60px);
+}
+
+.ouvido-img {
+  margin-left: 60px;
+}
+
+.booky-logo {
+  height: 97px;
+  width: 292px;  
+}
+
+/* ---- HOME LINK COLORS ---- */
+
+.link-color-linkedin {
+  color: #0A66C2;
+}
+
+.link-color-shopee {
+  color: #F33D2D;
+}
+
+.link-color-v7 {
+  color: #D7B683;
+}
+
+.link-color-alpha {
+  color: #05A7A7;
+}
+
+.link-color-art {
+  color: #0085FD;
+}
+
+.link-color-ouvido {
+  color: #7000FF;
+}
+
+.link-color-booky {
+  color: #BE29F3;
+}
+
